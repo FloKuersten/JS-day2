@@ -19,4 +19,30 @@ function crystalGazer(children, partner, location, job) {
 }
 console.log(crystalGazer(2, "Jim", "Austria", "Mechanic"));
 
-/* Basic 4 Exe */
+/* Basic 4-5 Exe */
+
+function ageCalculator(birth) {
+    return `You are either ${new Date().getFullYear() - birth} or ${new Date().getFullYear() - birth + 1}`;
+} 
+console.log(ageCalculator(1997));
+
+/* Basic 6 Exe */
+
+function radianConverter(degrees) {
+    return degrees*Math.PI/180;
+
+}
+console.log(radianConverter(90));
+console.log(Math.PI);
+
+/* Basic 7 Exe */
+
+function boxArea(width, height) {
+    return width*height;
+
+}
+function volumeArea(depth) {
+    return boxArea()*depth;
+}
+console.log(boxArea(2,2));
+console.log(volumeArea(7));
