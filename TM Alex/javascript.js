@@ -55,3 +55,49 @@ function ageCalculator(){
     var guess2 = currentYear - birthYear +1
     console.log(guess2)
 }
+
+/* Degree Radian Conversion */
+
+const pi = Math.PI
+var degreeInput = 90
+
+function conversion(){
+    console.log(degreeInput * (pi/180))
+}
+
+/* Area and Volume of Box */
+/* 
+var inputHeight = 20
+var inputWidth = 40
+var inputDepth = 50 */
+
+function areaVolume(inputWidth, inputHeight, inputDepth){
+    var result = inputWidth * inputHeight
+    var result2 = inputWidth * inputHeight * inputDepth
+    return `Area is ${result} and the Volume is ${result2}`
+}
+
+console.log(areaVolume(20, 20, 40))
+
+/* Capitalize */
+
+var randomString = "u like pizza dont you ?"
+
+
+var correctedString = (function(){
+    return `String corrected : ${randomString.charAt().toUpperCase() + randomString.slice(1)}`
+})();
+
+
+console.log(correctedString)
+
+
+/* Average Grade */
+
+var math = 3
+var physics = 4 
+var english = 5
+
+function averageGrade(){
+   console.log((math + english + physics) /3)
+};
