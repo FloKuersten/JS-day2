@@ -101,3 +101,13 @@ var english = 5
 function averageGrade(){
    console.log((math + english + physics) /3)
 };
+
+/* Global Variable Test for ATM */
+let globalvariable = 9
+
+function changevariable(){
+    globalvariable = 9
+};
+changevariable();
+
+console.log(globalvariable)
