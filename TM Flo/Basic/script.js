@@ -37,11 +37,15 @@ console.log(Math.PI);
 
 /* Basic 7 Exe */
 
+let width = 2
+let hieght = 2
+let depth = 7
+
 function boxArea(width, height) {
     return width*height;
 
 }
-function volumeArea(depth) {
+function volumeArea(width, height, depth) {
     return boxArea()*depth;
 }
 console.log(boxArea(2,2));

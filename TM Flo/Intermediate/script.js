@@ -7,13 +7,12 @@ function capitalizeFirstLetter(string) {
 
 
 /* Exercise 2 */
-function sumGrade(math, physics, english) {
-    return math + physics + english;
+let logSum = function sumGrade(math, physics, english) {
+    return logSum2(math + physics + english);
 }
+console.log(sumGrade(3,4,5));
 
-var logSum = console.log(sumGrade(3,4,5));
-
-function avgGrade(logsSum) {
+logSum = function avgGrade() {
     return logSum/3;
 }
-console.log(avgGrade(logSum));
+console.log(avgGrade());
